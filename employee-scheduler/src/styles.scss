@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-indigo/theme.css";
+@import "primeng/resources/primeng.css";
+@import 'primeflex/primeflex.scss';
+
+body{
+    margin: 0;
+}
+
+.menu{
+   @include styleclass('flex gap-6 justify-content-center align-items-center');
+   height: calc(100vh - 100px); 
+}
+
+.nav{
+    @include styleclass('flex justify-content-center align-items-center');
+    height: 100px;
+    background-color: rgb(99, 102, 241);
+    color: white;
+
+
+}
